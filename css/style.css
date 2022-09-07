@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: 'Roboto', sans-serif;
+}
 :root{
     --arancione: #FF6911;
     --grigio: #1A1A1A;
@@ -26,6 +29,7 @@
 .nav-container ul li{
     color: white;
     list-style: none;
+    font-weight: bold;
 }
 .nav-container img{
     width: 150px;
@@ -94,6 +98,7 @@
     line-height: 30px;
     font-size: 15px;
     color: white;
+    font-weight: bold;
 }
 .sostenibilità{
     position: absolute;
@@ -106,6 +111,7 @@
     line-height: 30px;
     font-size: 15px;
     color: white;
+    font-weight: bold;
 }
 .box h4{
     text-transform: uppercase;
@@ -182,4 +188,14 @@
 }
 .ul-footer{
     display: flex;
+}
+/* Bonus */
+.heart:hover{
+    color: var(--rosso);
+}
+i:hover{
+    cursor: pointer;
+}
+li:hover{
+    cursor: pointer;
 }
