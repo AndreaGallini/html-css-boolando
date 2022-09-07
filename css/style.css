@@ -192,10 +192,15 @@ html{
 /* Bonus */
 .heart:hover{
     color: var(--rosso);
+    cursor: pointer;
 }
 i:hover{
     cursor: pointer;
 }
 li:hover{
     cursor: pointer;
+}
+.box h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
